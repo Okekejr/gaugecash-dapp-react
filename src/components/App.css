@@ -1,0 +1,491 @@
+/* Styles go here */
+
+/* Google font */
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap);
+
+/* Font awesome */
+@import url(https://pro.fontawesome.com/releases/v5.10.0/css/all.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../static/back.png);
+    background-size: cover;
+    text-decoration: none;
+} 
+
+.container-div{ 
+    Display: flex;
+    Align-Items: center;
+    Justify-Content: center;
+    margin-top: 30px;
+}
+
+.center-link{
+    Display: flex;
+    Align-Items: center;
+    Justify-Content: center;
+    margin-top:10px;
+}
+
+.link-text{
+    color:white;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.submit-button{
+    Display: flex;
+    Align-Items: center;
+    Justify-Content: center;
+    margin-top: 20px;
+}
+
+.padding-top{
+    Align-Items: top;
+    Display: flex;;
+    Justify-Content: top;
+}
+
+.margin-topper{
+    margin-top: 50px;
+}
+
+.negative-margin-topper{
+    margin-top: -100px;
+    
+}
+
+.padding-bot{
+    padding-bottom: 15px;
+}
+
+.margin-right{
+    margin-right: 10px;
+
+}
+
+.margin-bot{
+    margin-bottom: 30px;
+}
+
+
+.buy-background{
+    background-color: transparent;
+    border: 5px solid #fff;
+    border-radius: 35px;
+}
+
+.white-color{
+    color: rgb(255,255,255);
+}
+
+.top-bar{
+    font-size: 20px;
+}
+
+.img-3r{
+    margin-right: -5px;
+}
+
+.img-3l{
+    margin-left: -5px;
+}
+
+.backgrd-dropdown{
+    background-color:rgb(32, 34, 39);
+    border: solid;
+    border-color:rgb(255,255,255,0.5);
+    border-width: 1px;
+    border-radius: 30px;
+}
+
+.icon-dropdown{
+    color: rgb(255,255,255);
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.icon-dropdown:hover {
+    border: solid;
+    border-color:rgb(255,255,255,0.5);
+    border-width: 1px; 
+    background-color: rgb(51,23,70,0.4); 
+    color: rgb(255,255,255);
+}
+
+.icon-dropdown:active {
+    border: solid;
+    border-color:rgb(255,255,255,0.5);
+    border-width: 1px;
+    background: transparent;
+}
+
+.icon{
+    color: rgb(255,255,255);
+    align-items: center;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+
+button[type="button"]
+{
+    color:white;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    padding-left: 12px;
+    width: 120px;
+}
+
+button[type="button"]:hover {
+    border: solid;
+    border-color:rgb(255,255,255,0.5);
+    border-width: 1px; 
+    background-color: rgb(51,23,70,0.4); 
+}
+
+button[type="button"]:active {
+    border: solid;
+    border-color:rgb(255,255,255,0.5);
+    border-width: 1px;
+    background: transparent;
+}
+
+button[type="submit"] {
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(255,255,255,0.5);
+    border-radius: 20px;
+    outline: none;
+    font-size: 1em;
+    width: 60%;
+    height: 50px;
+    color:#5A10A8;
+    background-color: #ffff;
+    font-weight: bolder;
+}
+
+button[type="submit"]:disabled {
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(255,255,255,0.3);
+    border-radius: 20px;
+    outline: none;
+    font-size: 1em;
+    width: 60%;
+    height: 50px;
+    color:  rgb(255,255,255,0.5);
+    background-color: rgb(51,23,70, 0.5);
+    font-weight: bolder;
+}
+
+button[type="submit"]:hover {
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(255,255,255,0.5);
+    border-radius: 20px;
+    outline: none;
+    font-size: 1em;
+    width: 60%;
+    height: 50px;
+    background-color: #5A10A8;
+    color: #ffff;
+    font-weight: bolder;
+}
+
+button[type="submit"]:active {
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(255,255,255,0.5);
+    border-radius: 20px;
+    outline: none;
+    font-size: 1em;
+    width: 60%;
+    height: 50px;
+    color:#5A10A8;
+    background-color: #ffff;
+    font-weight: bolder;
+}
+
+.buy-disabled {
+    color:  rgb(255,255,255,0.5) !important;
+    background-color: rgb(51,23,70, 0.5) !important;
+    pointer-events: none !important;
+}
+
+.input {
+    position: relative;
+    font-size: 1.5em;
+    background: transparent;
+    display: inline-block;
+    color: rgb(255,255,255);
+    width: 73%;
+}
+  
+input {
+font-family: inherit;
+line-height: inherit;
+color: #2e3750;
+min-width: 12em;
+border-style: none;
+outline-width: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
+
+.borders2{
+    border: solid;
+    border-color: #ffff;
+    border-width: 1px;
+    border-radius: 30px;
+    padding-left : 35px;
+    padding-right : 35px;
+    padding-top : 20px;
+}
+
+.rate{
+    margin-top: 1rem;
+    padding-left : 35px;
+    padding-right : 35px;
+    padding-top : 5px;
+    margin-bottom: -20px;
+}
+
+.load{
+    margin-bottom: -15px;
+    margin-top: -17px;
+    Display: flex;
+    Align-Items: center;
+    Justify-Content: center;
+}
+
+div.popup {
+    position: fixed;
+    width: 25%;
+    height: 45%;
+    top: 25%;
+    left: 38%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: #F0D9FF;
+    border-radius: 30px;
+}
+
+div.popup .transaction-icon {
+    font-size: 5rem;
+    color: #5A10A8;
+    align-self: center;
+}
+
+div.popup span {
+    align-self: center;
+    font-size: 2rem;
+    color: #5A10A8;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+div.popup a{
+    font-size: 1.4rem;
+    color: #5A10A8;
+    align-self: center;
+    margin-bottom: 3rem;
+}
+
+div.popup button {
+    all: unset;
+    text-align: center;
+    font-size: 1.5rem;
+    color:rgb(255, 255, 255);
+    background-color: #5A10A8;
+    border-radius: 1rem;
+    width: 20rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+div.popup button:hover {
+    all: unset;
+    text-align: center;
+    font-size: 1.5rem;
+    color:rgb(255, 255, 255);
+    background-color: #5A10A8;
+    border-radius: 1rem;
+    width: 20rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.add {
+    border: 1px solid grey;
+    background-color: #5A10A8;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.addContent {
+    padding: 5px;
+    list-style-type: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connect {
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(255,255,255,0.5);
+    border-radius: 20px;
+    outline: none;
+    font-size: 1em;
+    width: 40%;
+    height: 40px;
+    color:#5A10A8;
+    background-color: #ffff;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.connect-disabled {
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(255,255,255,0.3);
+    border-radius: 20px;
+    outline: none;
+    font-size: 1em;
+    width: 40%;
+    height: 50px;
+    color:  rgb(255,255,255,0.5);
+    background-color: rgb(51,23,70, 0.5);
+    font-weight: bolder;
+    margin-top: 20px;
+    pointer-events: none;
+}
+
+@media screen and (max-width: 769px) {
+    #content\  > div > div.card-body > form > div.submit-button {
+        width: 100%;
+    }
+
+    button[type="submit"] {
+        font-size: 0.7em;
+        width: 70%;
+        height: 40px;
+    }
+    
+    button[type="submit"]:disabled {
+        font-size: 0.7em;
+        width: 70%;
+        height: 40px;
+    }
+    
+    button[type="submit"]:hover {
+        font-size: 0.7em;
+        width: 70%;
+        height: 40px;
+    }
+    
+    button[type="submit"]:active {
+        font-size: 0.7em;
+        width: 70%;
+        height: 40px;
+    }
+
+    .connect {
+        font-size: 0.7em;
+        width: 50%;
+        height: 30px;
+    }
+
+    .connect-disabled {
+        font-size: 0.7em;
+        width: 50%;
+        height: 30px;
+    }
+
+    .addContent {
+        font-size: 0.7em;
+    }
+
+    div.popup {
+        width: 55%;
+        height: 30%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid;
+        border-color: #F0D9FF;
+        border-radius: 30px;
+        left: 25vw;
+    }
+
+    div.popup .transaction-icon {
+        font-size: 3rem;
+        color: #5A10A8;
+        align-self: center;
+    }
+    
+    div.popup span {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    
+    div.popup a{
+        font-size: 0.8rem;
+        margin-bottom: 3rem;
+    }
+    
+    div.popup button {
+        all: unset;
+        text-align: center;
+        font-size: 1.5rem;
+        border-radius: 30px;
+        margin-top: 10px;
+        width: 10rem;
+        color:rgb(255, 255, 255);
+        background-color: #5A10A8;
+    }
+    
+    div.popup button:hover {
+        all: unset;
+        text-align: center;
+        font-size: 1.5rem;
+        border-radius: 30px;
+        width: 10rem;
+        color:rgb(255, 255, 255);
+        background-color: #5A10A8;
+    }
+}

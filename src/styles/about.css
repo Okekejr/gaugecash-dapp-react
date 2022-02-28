@@ -1,0 +1,161 @@
+/* Hero Text */
+
+h1 {
+    text-align: center;
+}
+
+.about-h1 {
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+#investSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.investContents {
+    width: 70%;
+    text-align: left;
+}
+
+.investImg1 {
+    float: left;
+    margin-right: 10px;
+    width: 50%;
+}
+
+.investImg2 {
+    float: right;
+    margin-left: 10px;
+    width: 50%;
+}
+
+.investText {
+    margin-top: 9.375rem;
+}
+
+@media (max-width: 321px) {
+    #gatsby-focus-wrapper > div > div > div > h1 {
+        font-size: 1rem;
+    }
+
+    #investSection {
+        margin: 10px;
+        margin-bottom: 30px;
+    }
+
+    #root > div > div.content > div > h1 {
+        font-size: 1.4rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .investContents {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .investImg1, .investImg2 {
+        width: 100%;
+    }
+
+    .investText {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 376px) and (min-width: 321px) {
+    #gatsby-focus-wrapper > div > div > div > h1 {
+        font-size: 1.5rem;
+    }
+
+    #investSection {
+        margin: 10px;
+        margin-bottom: 30px;
+    }
+
+    #root > div > div.content > div > h1 {
+        font-size: 1.4rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .investContents {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .investImg1, .investImg2 {
+        width: 100%;
+    }
+
+    .investText {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 415px) and (min-width: 376px) {
+    #gatsby-focus-wrapper > div > div > div > h1 {
+        font-size: 1.5rem;
+    }
+
+    #investSection {
+        margin: 10px;
+        margin-bottom: 30px;
+    }
+
+    .investContents {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #root > div > div.content > div > h1 {
+        font-size: 1.4rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .investImg1, .investImg2 {
+        width: 100%;
+    }
+
+    .investText {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 769px) {
+    .investText {
+        font-size: 12px;
+    }
+
+    #root > div > div.content > div > h1 {
+        font-size: 1.4rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .investText {
+        margin-top: 20px;
+    }
+
+    #root > div > div.content > div > h1 {
+        font-size: 1.4rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

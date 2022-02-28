@@ -1,0 +1,167 @@
+/* Navbar */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    margin: 10px auto 15px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    align-content: center;
+}
+
+#root > div > div:nth-child(1) > nav > ul {
+    margin-bottom: 0px;
+}
+
+ul .page {
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logoImage {
+    width: 15rem;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavIcon {
+    width: 2rem;
+}
+
+.navIconLinks {
+    margin-right: 10px;
+}
+
+.Home,
+.About,
+.Charts,
+.Roadmap,
+.Whitepaper,
+.Team {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+#Btn-home {
+	background-color: #ffff;
+	border-radius:20px;
+	cursor:pointer;
+	color:#5A10A8;
+	font-size:16px;
+	padding:9px 31px;
+	text-decoration:none;
+}
+#Btn-home:hover {
+	background-color:#5A10A8;
+    color: #fff;
+}
+#Btn-home:active {
+	position:relative;
+	top:1px;
+}
+
+@media screen and (max-width: 769px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+
+    .logoImage {
+        width: 12rem;
+    }
+
+    .logo {
+        display: flex;
+        position: relative;
+        top: 15px;
+        left: 35px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .socialMedia {
+        display: none;
+    }
+    
+    .nav-links-mobile {
+        position: absolute;
+        display: block;
+        list-style-type: none;
+        background-color: #140025;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .Home,
+    .About,
+    .Charts,
+    .Roadmap,
+    .Whitepaper,
+    .Team {
+        color: #fff;
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 32px;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+
+    .first {
+        margin-top: 50px;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: #5A10A8;
+        background-color: #140025;
+        border: none;
+        outline: none;
+        top: 15px;
+        right: 25px;
+    }
+
+    #Btn-home {
+        margin-bottom: 60px;
+    }
+}
