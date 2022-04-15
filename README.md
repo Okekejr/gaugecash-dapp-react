@@ -6,7 +6,7 @@ It has mainly tokens GAUF and GAU.
 
 ## Demo
 
-![]()
+![](swappage.gif)
 
 #### Live application link
 
