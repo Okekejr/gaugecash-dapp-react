@@ -11,7 +11,7 @@ It has mainly tokens GAUF and GAU.
 #### Live application link
 
 ```
-
+https://gaugecash-clone.vercel.app/
 ```
 
 ## Stack
