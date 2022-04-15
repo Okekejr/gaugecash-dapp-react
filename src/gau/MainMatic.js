@@ -11,19 +11,28 @@ class MainMatic extends Component {
 
   render() {
     let content
-    {
+    
       content = <BuyMatic
       LinkBalance={this.props.LinkBalance}
       GAUfBalance={this.props.GAUfBalance}
-      buyGaufWithEther={this.props.buyGaufWithEther}
-      buyGaufWithLink={this.props.buyGaufWithLink}
+      buyGauWithEther={this.props.buyGauWithEther}
       ethBalance={this.props.ethBalance}
       openWallet={this.props.openWallet}
       isConnected={this.props.isConnected}
       rate={this.props.rate}
       ethereum={this.props.ethereum}
+      swapCurrencies={this.props.swapCurrencies}
+      swap = {this.props.swap}
+      isAmountApproved = {this.props.isAmountApproved}
+      isBigger = {this.props.isBigger}
+      swapGauForMatic = {this.props.swapGauForMatic}
+      estimateGasbuyGauWithEther={this.props.estimateGasbuyGauWithEther}
+      getAmountOfGaugeCash={this.props.getAmountOfGaugeCash}
+      getAmountOfMatic={this.props.getAmountOfMatic}
+      maticPrice={this.props.maticPrice}
+      gaugecashPrice={this.props.gaugecashPrice}
       />
-    }
+    
     return (
       <div id="content " className="mt-3">
         <div className="card mb-2 buy-background" >
@@ -32,7 +41,6 @@ class MainMatic extends Component {
             <div className="card-body">
               {content}
             </div>
-            
           </div>
       </div>
     );

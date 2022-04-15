@@ -1,0 +1,51 @@
+/* styles go here */
+
+.content-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.new-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.feed-text {
+    font-size: 1rem;
+    margin: 0%;
+    margin-right: 20px;
+    color: #00D1FF;
+}
+
+.values {
+    color: #B4B2B2;
+    font-size: 2.5rem;
+}
+
+.gauImage {
+    margin-right: 10px;
+}
+
+
+@media (max-width: 415px) and (min-width: 280px) {
+    .content-data {
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .feed-text {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 913px) and (min-width: 415px) {
+    .feed-text {
+        margin: auto;
+    }
+}

@@ -9,7 +9,7 @@ export default function Banner() {
             {/* Banner */}
             <div className='heroButton'>
                 <a className='blogButton' href='/' >
-                    <div class="firstText"><p>Gaugecash Exchange MATIC/GAU</p></div>
+                    <div class="firstText"><p>Gaugecash Swap wallet</p></div>
                 </a>
             </div>
         </div>
