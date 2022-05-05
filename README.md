@@ -28,7 +28,7 @@ https://gaugecash-clone.vercel.app/
 Install and run the project on the terminal using npm
 
 ```
-npm install
+npm i
 ```
 
 ```
