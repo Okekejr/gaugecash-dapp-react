@@ -2,7 +2,7 @@
 
 The Gaugecash protocol, is a decentralized, digital asset-backed, peer to peer stable cash system, that caters incentives to the sophisticated long term crypto asset investor and simultaneously provides the average layperson/corporation a stable cryptocurrency delivered via a highly intuitive multi-platform interface that seamlessly integrates cutting edge technology in its UI, available to anyone, anywhere, for free.
 
-It has mainly tokens GAUF and GAU, the Abi's are in the file directory as well.
+It consists of one swappable token GAU against MATIC on the Mumbai testnet. GAU is a stable asset.
 
 ## Demo
 
