@@ -19,6 +19,7 @@ https://gaugecash-clone.vercel.app/
 <div style="display: flex; width: 300px justify-content: space-between;">
     <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="react" width="50" height="50">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png" alt="metamask" width="50" height="50">
+    <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Ethereum_logo_translucent.svg/440px-Ethereum_logo_translucent.svg.png' alt='ethereum' width='50' height='50'>
 </div>
 
 ## Usage
